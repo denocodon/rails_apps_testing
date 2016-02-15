@@ -1,3 +1,4 @@
-#!/bin/bash -xl
-source ~/.rvm/scripts/rvm
-env
+#!/bin/bash -e
+source "$HOME/.rvm/scripts/rvm"
+[[ -s ".rvmrc" ]] && source .rvmrc
+bundle install
