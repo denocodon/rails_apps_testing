@@ -1,4 +1,4 @@
-#!/bin/bash -e
-source "$HOME/.rvm/scripts/rvm"
-[[ -s ".rvmrc" ]] && source .rvmrc
-bundle install
+#!/bin/bash -x
+2 source ~/.bashrc
+3 rvm use 2.2.1@default
+4 bundle install
