@@ -1,3 +1,3 @@
-#!/bin/bash
+#!/bin/bash -xl
 source ~/.rvm/scripts/rvm
 env
