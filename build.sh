@@ -3,4 +3,4 @@ source ~/.rvm/scripts/rvm
 type rvm | head -1
 rvm use 2.2.1@default
 bundle install
-bundle exec rspec spec
+rspec hash_rspec.rb --format RspecJunitFormatter --out junut.xml
